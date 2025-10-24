@@ -7,8 +7,8 @@ import type {
 
 export class Fl2Api implements ICredentialType {
 	name = 'fl2Api';
-	displayName = 'Fl2 API';
-	icon = { light: "file:logo.svg", dark: "file:logo.svg" } as any;
+	displayName = 'FL2 API';
+	icon = 'file:logo.svg';
 	documentationUrl = 'https://github.com/oliverw/n8n-nodes-fl2?tab=readme-ov-file#credentials';
 
 	properties: INodeProperties[] = [
@@ -33,7 +33,7 @@ export class Fl2Api implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 		request: {
-			baseURL: 'https://app.fltwo.net/api/v1',
+			baseURL: 'https://app.fl2.io/api/v1',
 			url: '/links',
 		},
 	};
