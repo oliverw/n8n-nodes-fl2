@@ -4,7 +4,7 @@ import { channelDescription } from './resources/channel';
 
 export class Fl2 implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Fl2',
+		displayName: 'FL2',
 		name: 'fl2',
 		icon: "file:logo.svg",
 		group: ['transform'],

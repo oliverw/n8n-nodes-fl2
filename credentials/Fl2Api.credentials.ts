@@ -7,8 +7,8 @@ import type {
 
 export class Fl2Api implements ICredentialType {
 	name = 'fl2Api';
-	displayName = 'FL2 API';
-	icon = 'file:logo.svg';
+	displayName = 'F2 API';
+	icon = 'file:logo.svg' as unknown as any;
 	documentationUrl = 'https://github.com/oliverw/n8n-nodes-fl2?tab=readme-ov-file#credentials';
 
 	properties: INodeProperties[] = [
