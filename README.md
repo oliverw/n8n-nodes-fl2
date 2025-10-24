@@ -1,4 +1,4 @@
-# n8n-nodes-linkbrain
+# n8n-nodes-fltwo
 
 This is an n8n community node. It lets you use FL2 in your n8n workflows.
 
@@ -86,4 +86,4 @@ This Node has been tested successfully with n8n 1.115.3
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
 * [FL2 API Playground](https://app.fl2.io/scalar/v1)
-* [NPM Package](https://www.npmjs.com/package/n8n-nodes-linkbrain)
+* [NPM Package](https://www.npmjs.com/package/n8n-nodes-fltwo)

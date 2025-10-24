@@ -1,9 +1,9 @@
 {
-  "name": "n8n-nodes-linkbrain",
+  "name": "n8n-nodes-fl2",
   "version": "0.3.0",
-  "description": "Node package for n8n to interact with the Linkbrain API",
+  "description": "Node package for n8n to interact with the FL2 API",
   "license": "MIT",
-  "homepage": "https://linkbrain.net",
+  "homepage": "https://www.fl2.io",
   "keywords": [
     "n8n-community-node-package"
   ],
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LinkbrainOrg/n8n-nodes-linkbrain.git"
+    "url": "https://github.com/oliverw/n8n-nodes-fl2.git"
   },
   "scripts": {
     "build": "n8n-node build",
@@ -31,10 +31,10 @@
     "n8nNodesApiVersion": 1,
     "strict": true,
     "credentials": [
-      "dist/credentials/LinkbrainApi.credentials.js"
+      "dist/credentials/Fl2Api.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Linkbrain/Linkbrain.node.js"
+      "dist/nodes/Fl2/Fl2.node.js"
     ]
   },
   "devDependencies": {

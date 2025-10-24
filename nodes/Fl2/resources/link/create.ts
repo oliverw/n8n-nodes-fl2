@@ -44,7 +44,7 @@ export const linkCreateDescription: INodeProperties[] = [
 		displayOptions: {
 			show: showOnlyForLinkCreate,
 		},
-		description: 'Comma-separated list of Tags to assign to the created link',
+		description: 'Comma-separated list of Tags to assign to the created links',
 		routing: {
 			send: {
 				preSend: [transformTags],

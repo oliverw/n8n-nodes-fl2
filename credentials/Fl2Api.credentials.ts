@@ -5,11 +5,11 @@ import type {
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class LinkbrainApi implements ICredentialType {
-	name = 'linkbrainApi';
-	displayName = 'Linkbrain API';
-	icons = { light: "file:linkbrain.svg", dark: "file:linkbrain.svg" };
-	documentationUrl = 'https://github.com/LinkbrainOrg/n8n-nodes-linkbrain?tab=readme-ov-file#credentials';
+export class Fl2Api implements ICredentialType {
+	name = 'fl2Api';
+	displayName = 'Fl2 API';
+	icons = { light: "file:logo.svg", dark: "file:logo.svg" };
+	documentationUrl = 'https://github.com/oliverw/n8n-nodes-fl2?tab=readme-ov-file#credentials';
 
 	properties: INodeProperties[] = [
 		{
@@ -33,7 +33,7 @@ export class LinkbrainApi implements ICredentialType {
 
 	test: ICredentialTestRequest = {
 		request: {
-			baseURL: 'https://app.linkbrain.net/api/v1',
+			baseURL: 'https://app.fltwo.net/api/v1',
 			url: '/links',
 		},
 	};
