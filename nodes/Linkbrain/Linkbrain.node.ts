@@ -2,23 +2,23 @@ import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from '
 import { linkDescription } from './resources/link';
 import { channelDescription } from './resources/channel';
 
-export class FL2 implements INodeType {
+export class Linkbrain implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'FL2',
-		name: 'fl2',
-		icon: "file:fl2.svg",
+		displayName: 'Linkbrain',
+		name: 'linkbrain',
+		icon: "file:linkbrain.svg",
 		group: ['transform'],
 		version: 1,
 		subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
-		description: 'Interact with the FL2 API',
+		description: 'Interact with the Linkbrain API',
 		defaults: {
-			name: 'FL2',
+			name: 'Linkbrain',
 		},
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
-		credentials: [{ name: 'FL2Api', required: true }],
+		credentials: [{ name: 'linkbrainApi', required: true }],
 		requestDefaults: {
-			baseURL: 'https://app.fl2.net/api/v1',
+			baseURL: 'https://app.linkbrain.net/api/v1',
 			headers: {
 				Accept: 'application/json',
 				'Content-Type': 'application/json',

@@ -1,4 +1,4 @@
-# n8n-nodes-fl2
+# n8n-nodes-linkbrain
 
 This is an n8n community node. It lets you use FL2 in your n8n workflows.
 
@@ -66,7 +66,7 @@ This Node operates on the **FL2 REST API**. To access the API, you must authenti
 Before you can generate a token, you'll need a LinkBrain account. 
 
 1. **Sign up for free** at [https://app.fl2.io/signup](https://app.fl2.io/signup) 
-2. **Sign in** to your account at [https://app.fl2.io](https://app.fl2.io/login) 
+2. **Sign in** to your account at [https://app.fl2.io](https://app.fl2.io/signin) 
 
 ### Obtaining an API Token 
 
@@ -86,4 +86,4 @@ This Node has been tested successfully with n8n 1.115.3
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
 * [FL2 API Playground](https://app.fl2.io/scalar/v1)
-* [NPM Package](https://www.npmjs.com/package/n8n-nodes-fl2)
+* [NPM Package](https://www.npmjs.com/package/n8n-nodes-linkbrain)
