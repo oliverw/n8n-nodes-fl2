@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-fl2",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Node package for n8n to interact with the FL2 API",
   "license": "MIT",
   "homepage": "https://www.fl2.io",
